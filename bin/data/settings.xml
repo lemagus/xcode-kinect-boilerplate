@@ -1,0 +1,15 @@
+<kUsers>
+    <mode type="1" comment="0:no display|1:GUI" />
+    <osc>
+        <senders>
+            <sender address="/kUsers" ip="127.0.0.1" port="23000" />
+            <sender address="/kUsers" ip="localhost" port="23001" />
+        </senders>
+    </osc>
+    <spot x="-13.333321" y="1119.999878" z="3840.000000" radius="613.333374" comment="value in millimeters" />
+    <calibration time="25000.000000" comment="time in millis" />
+    <actions>
+        <action name="JUMP" min="0.200000" max="2.000000" />
+        <action name="CROUNCH" min="0.000000" max="0.846667" />
+    </actions>
+</kUsers>
